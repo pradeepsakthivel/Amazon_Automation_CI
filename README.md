@@ -83,7 +83,8 @@ Execute the below commands in Terminal:
 		
 ##Architecture
 
-![Amazon Automation   Architectural Flow Diagram](../../Amazon%20Automation%20-%20Architectural%20Flow%20Diagram.png)
+[Amazon Automation   Architectural Flow Diagram](https://pradeepsakthivel.github.io/Amazon_Test_Result_Repo/Amazon Automation Flow Diagram.pdf)
+
 ## Contributing
 
 ***
