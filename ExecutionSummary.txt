@@ -1,0 +1,7 @@
+Execution Summary
+
+Total tests run: 6, Passes: 6, Failures: 0, Skips: 0
+
+Run Time: 23-11-2023 20:40:53
+
+Report URL: https://pradeepsakthivel.github.io/Amazon_Test_Result_Repo/TestAutomationReport_UI_latest.html

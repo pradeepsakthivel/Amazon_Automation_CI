@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+	<Appenders>
+		<Console name="LogToConsole" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<!-- Define an appender for WebDriverManager logs -->
+
+		<!-- <File name="LogToFile" fileName="logs/app.log"> -->
+		<!-- <PatternLayout> -->
+		<!-- <Pattern>%d %p %c{1.} [%t] %m%n</Pattern> -->
+		<!-- </PatternLayout> -->
+		<!-- </File> -->
+	</Appenders>
+	<Loggers>
+		<Logger name="com.amazon.base" level="DEBUG" additivity="true">
+			<!-- <AppenderRef ref="LogToFile"/> -->
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="com.amazon.pages" level="DEBUG" additivity="true">
+			<!-- <AppenderRef ref="LogToFile"/> -->
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="com.amazon.user.regression.AmazonLoginTest"
+			level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="com.amazon.base" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="com.amazon.base" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="io.github.bonigarcia" level="all"
+			additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="io" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="org" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="com" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+		<Logger name="io.javalin" level="DEBUG" additivity="true">
+			<AppenderRef ref="LogToConsole" />
+		</Logger>
+
+		<Root level="all">
+			<!-- <AppenderRef ref="LogToFile"/> -->
+			<AppenderRef ref="LogToConsole" />
+			<!-- AppenderRef ref="WebDriverManagerAppender"/ -->
+		</Root>
+	</Loggers>
+</Configuration>

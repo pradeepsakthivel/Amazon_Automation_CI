@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MASTER SUITE DEV" verbose="1">
+	<suite-files>
+		<suite-file
+			path="src/test/resources/SuiteXML/sanity/DEV/DEV_WEB_WEB.xml"></suite-file>
+		<suite-file
+			path="src/test/resources/SuiteXML/sanity/DEV/DEV_MOCK_API.xml"></suite-file>
+	</suite-files>
+</suite>

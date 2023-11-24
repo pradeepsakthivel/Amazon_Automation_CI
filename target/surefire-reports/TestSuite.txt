@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.066 s <<< FAILURE! - in TestSuite
+com.mock.api.test.GetDeviceStatusByIdTest.getDeviceStatusById  Time elapsed: 0.32 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.mock.api.test.GetDeviceStatusByIdTest.getDeviceStatusById(GetDeviceStatusByIdTest.java:63)
+

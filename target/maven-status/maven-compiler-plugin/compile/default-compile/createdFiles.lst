@@ -1,0 +1,14 @@
+com/amazon/pages/BasePage.class
+com/amazon/pages/AmazonLandingPage.class
+com/amazon/base/TestUtilities.class
+com/amazon/base/WriteDataToXLS.class
+com/amazon/base/APIUtilities.class
+com/amazon/assertions/AmazonLandingPageAssertion.class
+com/mock/api/assertions/GetDeviceStatusByIdAssertion.class
+com/amazon/base/SendMailWithAttachment$1.class
+com/amazon/base/SendMailWithAttachment.class
+com/amazon/base/CommonRestApiCalls.class
+com/amazon/base/PushToGit.class
+com/amazon/base/BrowserDriverFactory.class
+com/amazon/base/ReadDataFromXLS.class
+com/amazon/base/BaseTest.class

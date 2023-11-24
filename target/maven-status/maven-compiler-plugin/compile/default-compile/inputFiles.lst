@@ -1,0 +1,14 @@
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/BaseTest.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/assertions/AmazonLandingPageAssertion.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/pages/BasePage.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/APIUtilities.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/WriteDataToXLS.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/ReadDataFromXLS.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/pages/AmazonLandingPage.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/mock/api/assertions/GetDeviceStatusByIdAssertion.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/PushToGit.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/CommonRestApiCalls.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/SendMailWithAttachment.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/TestUtilities.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/amazon/base/BrowserDriverFactory.java
+/Users/psakth136/Documents/Selenium/Amazon_Automation_CI/src/main/java/com/mock/api/assertions/PutSitecontactByIdAssertion.java

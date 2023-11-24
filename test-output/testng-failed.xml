@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon-Sanity_Dev]"
+	guice-stage="DEVELOPMENT">
+	<parameter name="TESTCASETYPE" value="UI" />
+	<parameter name="runType" value="sanity" />
+	<parameter name="ENV" value="DEV" />
+	<test thread-count="5" name="Amazon_Login_Test(failed)">
+		<classes>
+			<class name="com.amazon.user.regression.AmazonLoginTest">
+				<methods>
+					<include name="reportData" />
+					<include name="getResult" />
+					<include name="endReport" />
+					<include name="login" />
+					<include name="statusupdate" />
+					<include name="logoutUser" />
+					<include name="afterSuiteMethod" />
+					<include name="getEnvironmentURL" />
+					<include name="loginUser" invocation-numbers="1" />
+				</methods>
+			</class> <!-- com.amazon.user.regression.AmazonLoginTest -->
+		</classes>
+	</test> <!-- Amazon_Login_Test(failed) -->
+</suite> <!-- Failed suite [Amazon-Sanity_Dev] -->

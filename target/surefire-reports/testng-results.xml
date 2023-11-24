@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1"
+	failed="1" skipped="0">
+	<reporter-output>
+	</reporter-output>
+	<suite started-at="2023-11-23T17:00:51 EST" name="MockAPI"
+		finished-at="2023-11-23T17:00:53 EST" duration-ms="1512">
+		<groups>
+		</groups>
+		<test started-at="2023-11-23T17:00:51 EST" name="MockAPI_Test"
+			finished-at="2023-11-23T17:00:53 EST" duration-ms="1512">
+			<class name="com.mock.api.test.GetDeviceStatusByIdTest">
+				<test-method is-config="true"
+					signature="reportData(org.testng.ITestContext)[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:51 EST" name="reportData"
+					finished-at="2023-11-23T17:00:51 EST" duration-ms="74"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[org.testng.TestRunner@6e017950]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- reportData -->
+				<test-method is-config="true"
+					signature="getEnvironmentURL()[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:51 EST" name="getEnvironmentURL"
+					finished-at="2023-11-23T17:00:51 EST"
+					depends-on-methods="com.amazon.base.BaseTest.reportData"
+					duration-ms="1" status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getEnvironmentURL -->
+				<test-method is-config="true"
+					signature="login(org.testng.ITestContext)[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@34523d46, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={&quot;message&quot;:&quot;This is a mocked response&quot;,
+    &quot;nodes&quot;: [
+        {
+            &quot;name&quot;: &quot;Device1&quot;,
+            &quot;status&quot;: &quot;Online&quot;,
+            &quot;reportedTime&quot;: &quot;1700448255&quot;
+        },
+        {
+            &quot;name&quot;: &quot;Device2&quot;,
+            &quot;status&quot;: &quot;Offline&quot;,
+            &quot;reportedTime&quot;: &quot;1700448255&quot;
+        }
+    ],
+    &quot;errors&quot;: []
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status Successful 200 Response}]]"
+					started-at="2023-11-23T17:00:51 EST" name="login"
+					finished-at="2023-11-23T17:00:51 EST" duration-ms="1" status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[org.testng.TestRunner@6e017950]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- login -->
+				<test-method
+					signature="getDeviceStatusById()[pri:1, instance:com.mock.api.test.GetDeviceStatusByIdTest@34523d46, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={&quot;message&quot;:&quot;This is a mocked response&quot;,
+    &quot;nodes&quot;: [
+        {
+            &quot;name&quot;: &quot;Device1&quot;,
+            &quot;status&quot;: &quot;Online&quot;,
+            &quot;reportedTime&quot;: &quot;1700448255&quot;
+        },
+        {
+            &quot;name&quot;: &quot;Device2&quot;,
+            &quot;status&quot;: &quot;Offline&quot;,
+            &quot;reportedTime&quot;: &quot;1700448255&quot;
+        }
+    ],
+    &quot;errors&quot;: []
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status Successful 200 Response}]]"
+					started-at="2023-11-23T17:00:51 EST" name="getDeviceStatusById"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="1037"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getDeviceStatusById -->
+				<test-method is-config="true"
+					signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="getResult"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="2" status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[[TestResult name=getDeviceStatusById status=SUCCESS method=GetDeviceStatusByIdTest.getDeviceStatusById()[pri:1, instance:com.mock.api.test.GetDeviceStatusByIdTest@34523d46, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={"message":"This is a mocked response",
+    "nodes": [
+        {
+            "name": "Device1",
+            "status": "Online",
+            "reportedTime": "1700448255"
+        },
+        {
+            "name": "Device2",
+            "status": "Offline",
+            "reportedTime": "1700448255"
+        }
+    ],
+    "errors": []
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status Successful 200 Response}]] output={null}]]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getResult -->
+				<test-method is-config="true"
+					signature="statusupdate()[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="statusupdate"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="0" status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- statusupdate -->
+				<test-method
+					signature="getDeviceStatusById()[pri:1, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="getDeviceStatusById"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="315"
+					status="FAIL">
+					<exception class="java.lang.AssertionError">
+						<message>
+              <![CDATA[expected [false] but found [true]]]>
+						</message>
+						<full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at com.mock.api.assertions.GetDeviceStatusByIdAssertion.getDeviceStatusResponseAssertion(GetDeviceStatusByIdAssertion.java:57)
+at com.mock.api.test.GetDeviceStatusByIdTest.getDeviceStatusById(GetDeviceStatusByIdTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+						</full-stacktrace>
+					</exception> <!-- java.lang.AssertionError -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getDeviceStatusById -->
+				<test-method is-config="true"
+					signature="login(org.testng.ITestContext)[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="login"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="0" status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[org.testng.TestRunner@6e017950]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- login -->
+				<test-method is-config="true"
+					signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="getResult"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="3" status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[[TestResult name=getDeviceStatusById status=FAILURE method=GetDeviceStatusByIdTest.getDeviceStatusById()[pri:1, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    "Message": "This is a mocked response",
+    "codeId": 100,
+    "status": "Success"
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]] output={null}]]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- getResult -->
+				<test-method is-config="true"
+					signature="endReport()[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="endReport"
+					finished-at="2023-11-23T17:00:53 EST" duration-ms="144"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- endReport -->
+				<test-method is-config="true"
+					signature="statusupdate()[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:52 EST" name="statusupdate"
+					finished-at="2023-11-23T17:00:52 EST" duration-ms="0" status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- statusupdate -->
+				<test-method is-config="true"
+					signature="afterSuiteMethod()[pri:0, instance:com.mock.api.test.GetDeviceStatusByIdTest@7cedfa63, instance params:[{X-Secure-Key=d066681a-ac83-4e80-b005-8fd7b2ed5c74, expectedStatusCode=200, expectedResult={
+    &quot;Message&quot;: &quot;This is a mocked response&quot;,
+    &quot;codeId&quot;: 100,
+    &quot;status&quot;: &quot;Success&quot;
+}, browser=null, networkId=C_7774338, testscenarioName=Validate GET Device Status 200 Response with a different actual result}]]"
+					started-at="2023-11-23T17:00:53 EST" name="afterSuiteMethod"
+					finished-at="2023-11-23T17:00:54 EST" duration-ms="1778"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- afterSuiteMethod -->
+			</class> <!-- com.mock.api.test.GetDeviceStatusByIdTest -->
+		</test> <!-- MockAPI_Test -->
+	</suite> <!-- MockAPI -->
+</testng-results>

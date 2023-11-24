@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MockAPI]" guice-stage="DEVELOPMENT">
+	<parameter name="TESTCASETYPE" value="API" />
+	<parameter name="runType" value="sanity" />
+	<parameter name="ENV" value="DEV" />
+	<test thread-count="5" name="MockAPI_Test(failed)">
+		<classes>
+			<class name="com.mock.api.test.GetDeviceStatusByIdTest">
+				<methods>
+					<include name="reportData" />
+					<include name="getResult" />
+					<include name="login" />
+					<include name="statusupdate" />
+					<include name="afterSuiteMethod" />
+					<include name="getEnvironmentURL" />
+					<include name="endReport" />
+					<include name="getDeviceStatusById" invocation-numbers="1" />
+				</methods>
+			</class> <!-- com.mock.api.test.GetDeviceStatusByIdTest -->
+		</classes>
+	</test> <!-- MockAPI_Test(failed) -->
+</suite> <!-- Failed suite [MockAPI] -->

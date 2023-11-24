@@ -1,0 +1,135 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "content": {
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.3",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "AUTOMATION TEST RESULTS :",
+            "wrap": true,
+            "fontType": "Default",
+            "size": "medium",
+            "weight": "bolder",
+            "color": "warning",
+            "isSubtle": false
+          },
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "$data": "Total Pass",
+                "height": "stretch",
+                "verticalContentAlignment": "Top",
+                "style": "good",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Pass Cases: 9",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Fail Cases: 1",
+                    "wrap": true
+                  }
+                ],
+                "style": "attention"
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Skip Cases: 0",
+                    "wrap": true
+                  }
+                ],
+                "style": "accent"
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Total Cases: 10",
+                    "wrap": true
+                  }
+                ],
+                "style": "warning"
+              }
+            ]
+          },
+          {
+            "type": "Input.ChoiceSet",
+            "id": "Input1",
+            "choices": [
+              {
+                "title": "Choice 1",
+                "value": "Choice 1"
+              },
+              {
+                "title": "Choice 2",
+                "value": "Choice 2"
+              }
+            ],
+            "placeholder": "Component Details:"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "UI Version",
+                "value": "xxxx"
+              },
+              {
+                "title": "API 1 Version",
+                "value": "xxxx"
+              },
+              {
+                "title": "API 2 Version",
+                "value": "xxxx"
+              },
+              {
+                "title": "API 3 Version",
+                "value": "xxxx"
+              },
+              {
+                "title": "API 4 Version",
+                "value": "xxxx"
+              }
+            ],
+            "id": "u",
+            "spacing": "Small",
+            "height": "stretch"
+          },
+          {
+            "type": "ActionSet",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "Click to Execution Summary",
+                "style": "positive",
+                "url": "Your Automation URL goes here"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+    "type": "message",
+    "attachments": [
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "type": "AdaptiveCard",
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "version": "1.2",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "AUTOMATION EXECUTION SUMMARY:  DEV ENVIRONMENT",
+                        "wrap": true,
+                        "fontType": "Default",
+                        "size": "Default",
+                        "weight": "Bolder",
+                        "color": "Accent"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "TestCase Name: TEST CASE NAME",
+                        "wrap": true,
+                        "style": "columnHeader",
+                        "size": "Default",
+                        "color": "Dark",
+                        "weight": "Bolder"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Run Time: 11/26/2023  09:48: 41",
+                        "wrap": true,
+                        "horizontalAlignment": "Left",
+                        "fontType": "Default",
+                        "size": "Default",
+                        "color": "Default"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "$data": "T",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "TOTAL SCRIPTS:10",
+                                        "wrap": true,
+                                        "color": "Default",
+                                        "weight": "Bolder"
+                                    }
+                                ],
+                                "style": "warning"
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "PASS: 10",
+                                        "wrap": true,
+                                        "weight": "Bolder"
+                                    }
+                                ],
+                                "style": "good"
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "FAIL: 0",
+                                        "wrap": true,
+                                        "weight": "Bolder"
+                                    }
+                                ],
+                                "style": "attention"
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "SKIPS: 0",
+                                        "wrap": true,
+                                        "weight": "Bolder"
+                                    }
+                                ],
+                                "style": "accent"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "COMPONENT VERSION",
+                        "wrap": true,
+                        "spacing": "Small",
+                        "horizontalAlignment": "Left",
+                        "fontType": "Default",
+                        "size": "Medium",
+                        "color": "Light"
+                    },
+                    {
+                        "type": "FactSet",
+                        "facts": [
+                            {
+                                "title": "UI",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 1",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 2",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 3",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 4",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 5",
+                                "value": "x.x.x.x"
+                            },
+                            {
+                                "title": "API version 6",
+                                "value": "x.x.x.x"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ActionSet",
+                        "actions": [
+                            {
+                                "type": "Action.OpenUrl",
+                                "title": "View Report",
+                                "style": "positive",
+                                "id": "ATTACHMENT",
+                                "url": "www.google.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
