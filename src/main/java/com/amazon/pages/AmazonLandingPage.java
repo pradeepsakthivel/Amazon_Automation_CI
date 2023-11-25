@@ -110,61 +110,7 @@ public class AmazonLandingPage extends BasePage {
 	}
 	
 	
- //	public void  fetchAwsSecret() {
-//		System.out.println("^^^ fetch AWS secrets ^^^" );
-//		 
-////		 String secretName = "Test-credentials";
-////		    Region region = Region.of("us-east-1");
-//		    
-////		    BasicAWSCredentials awsCreds= new BasicAWSCredentials("AKIAXK5ISNI5CKEAT2YC", "i060YzzQr49pAcxn7evUx7TlDuAYtboNxVMQ2nRW");
-//		    String accessKey = "AKIAXK5ISNI5CKEAT2YC";
-//		    String secretKey = "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";
-//		    String secretArn = "arn:aws:secretsmanager:us-east-1:504475314746:secret:Test-credentials-LjDViq";
-//
-//		    
-//
-//
-//		    // Create a Secrets Manager client
-////		    SecretsManagerClient client = SecretsManagerClient.builder()
-////		            .region(region)
-////		            .build();
-//
-//		    
-//		   
-//
-//		    try {
-//		    	// Create a Secrets Manager client
-//		    	AWSSecretsManager client  = AWSSecretsManagerClientBuilder.standard()
-//		    	        .withRegion("us-east-1")
-//		    	        .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(accessKey, secretKey)))
-//		    	        .build();
-//		    	
-//		    	String secretName = "Test-credentials"; // Replace with the name of your secret
-//		    	 // Create a GetSecretValueRequest with the secret ARN
-//		    	
-//		      //  GetSecretValueRequest getSecretValueRequest = GetSecretValueRequest.builder().secretId(secretName).build();
-//
-//		    
-////		    		GetSecretValueRequest getSecretValueRequest = GetSecretValueRequest.builder()
-////		    	            .secretId(secretName)
-////		    	            .build();
-//		    		
-//		    		GetSecretValueRequest getSecretValueRequest = new GetSecretValueRequest().withSecretId(secretArn);
-//
-//		    		
-//			            String secret = client.getSecretValue(getSecretValueRequest).toString();
-//			            System.out.println(secret);
-//
-//		        } 
-//		    catch (Exception e) {
-//	        	System.out.println(e.toString());
-//		        }
-//		    
-//
-//		    
-//		    System.out.println("^^^  fetched secret: ^^^\n " ); 
-//		  //  System.out.println("^^^ secret:^^^"+ secretValue ); 
-//		}  
+ 
 	
 	/*** Enter Property Detail in Search Box ***/
 	
