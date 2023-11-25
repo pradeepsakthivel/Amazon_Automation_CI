@@ -80,7 +80,7 @@ Execute the below commands in Terminal:
 		(or)
 		``$ mvn clean test``
 		
-		
+***		
 ## Architecture
 
 ![Amazon Automation   Architectural Flow Diagram](https://github.com/pradeepsakthivel/Amazon_Test_Result_Repo/blob/main/docs/Amazon%20Automation%20Flow%20Diagram.pdf)
